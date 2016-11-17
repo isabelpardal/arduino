@@ -1,0 +1,52 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#coloredSlider {
+	float: left;
+	clear: left;
+width: 600px;
+	margin: 15px;
+}
+#coloredSlider .ui-slider-range { 
+	background: #ff0000; 
+}
+
+#coloredSlider .ui-state-default, .ui-widget-content .ui-state-default {
+	background: none;
+	background-color: #FFF;
+}
+
+#vid{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	top: 100vh;
+	left: 0;
+	background-color: rgba(255,255,255,0.8);
+	transition: .5s;
+}
+
+
+video{
+	width: 100%;
+}
+button{
+	float: left;
+}
+
+#play{
+	width: 50%;
+	height: 150px;
+}
+
+@media (-webkit-video-playable-inline) {
+    #vid video { display: initial; }
+}
+#pause{
+	width: 50%;
+	height: 150px;
+}
+
+#vid.on{
+top: 0;
+}
