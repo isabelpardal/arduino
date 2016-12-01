@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Eternize</title>
+   		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+		<div id="container">
+
+			<div id="local-video">
+
+ 				<video id='media-video' autobuffer="true">
+     			<source src='hologramas.mp4' type='video/mp4'>
+
+           		</video>
+           		<progress id='progress-bar' min='0' max='100' value='0'></progress>
+			</div>
+
+
+			<div id="botoes">
+
+				<button class="controles play" onclick="playVid()" ">
+
+				<svg  version="1.1" x="0px" y="0px" viewBox="0 0 90 112.5" enable-background="new 0 0 90 90" xml:space="preserve"><path  fill="#7d776c" d="M62.3,43.5L38.5,27.2c-0.7-0.5-2.7-0.5-2.9,1.5v32.5c0.2,2.1,2.2,2.1,2.9,1.5l23.7-16.2    C62.9,46.1,63.7,44.6,62.3,43.5z M39.3,57.8V32.2L58,45L39.3,57.8z"/></path></g><g><path fill="#7d776c" d="M45,1.9C21.3,1.9,1.9,21.3,1.9,45S21.3,88.1,45,88.1S88.1,68.7,88.1,45S68.7,1.9,45,1.9z M45,84.4    C23.3,84.4,5.6,66.7,5.6,45S23.3,5.6,45,5.6S84.4,23.3,84.4,45S66.7,84.4,45,84.4z"/></path></g></g></svg>
+				</button>
+
+				<button class="controles" class="on" onclick="stopVid()"">
+
+				<svg fill="#7d776c" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M72.273,27.726C66.324,21.776,58.414,18.5,50,18.5c-1.104,0-2,0.896-2,2c0,1.105,0.896,2,2,2  c7.346,0,14.251,2.86,19.445,8.055c10.722,10.722,10.723,28.169,0,38.891c-10.722,10.722-28.169,10.722-38.891,0  c-10.588-10.588-10.713-27.729-0.389-38.481l0,6.151c0,0.553,0.224,1.052,0.585,1.414c0.362,0.362,0.862,0.586,1.414,0.586  c1.105,0,2-0.896,2-2l-0.001-11c0-1.105-0.895-2-2-2l-11-0.001c-1.104,0-2,0.895-2,2c0,1.104,0.895,2,2,2l6.19,0.001  c-11.902,12.311-11.784,32.003,0.37,44.158c12.282,12.282,32.266,12.282,44.547,0C84.556,59.992,84.556,40.008,72.273,27.726z"/></svg>
+			</button>
+
+			<div id="rodape">
+			000
+			</div>
+
+
+
+
+
+
+			<script src="//cdn.pubnub.com/pubnub-3.14.5.min.js"></script>
+  
+
+
+
+    		<script src="main.js"></script>
+     		<script src="js/video.js"></script>
+	</body>
+</html>
